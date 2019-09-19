@@ -50,11 +50,6 @@ app.get("/", function(req, res) {
   // Using Java standard library classes
 
   text += new BigDecimal(Math.random()) + "<br>";
-  // text +=
-  //   BigInteger.valueOf(10)
-  //     .pow(100)
-  //     .add(BigInteger.valueOf(43))
-  //     .toString() + "<br>";
 
   text += "Exemplo Misturando NodeJS e Java /" + "<br>";
 

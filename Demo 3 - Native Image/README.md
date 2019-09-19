@@ -3,7 +3,7 @@
 ## Compilando o código
 
 ```sh
-$ javac Testando
+$ javac Testando.java
 ```
 
 ## Criando a imagem nativa
