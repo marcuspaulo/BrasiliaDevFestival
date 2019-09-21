@@ -25,7 +25,7 @@ docker start mariadb
 ## Demo 1 -
 
 ```sh
-$ cd /Users/marcus/DESENVOLVIMENTO/BrasiliaDevFestival/Demo 1 - GraalVM
+$ cd /Users/marcus/DESENVOLVIMENTO/BrasiliaDevFestival/Demo_1 - GraalVM
 ```
 
 ```sh
@@ -100,7 +100,7 @@ $ docker start mariadb
 mvn io.quarkus:quarkus-maven-plugin:0.21.1:create \
  -DprojectGroupId=com.mp \
  -DprojectArtifactId=bsbdevfestival \
- -DclassName="br.com.mp.bsbdevfestival.CarResource" \
+ -DclassName="br.com.mp.bsbdevfestival.resource.CarResource" \
  -Dpath="/car"
 ```
 
